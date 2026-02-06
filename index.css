@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Helvetica Pro';
+    src: url(./public/Helvetica.ttf);
+}
+@font-face {
+    font-family: 'Demon';
+    src: url(./assets/bloodcrow.ttf);
+}
+.heroText{
+    font-family: "Demon";
+    
+}
+*{
+    font-family: 'Helvetica Pro';
+}
+
+::selection {
+  background-color:orange; /* green */
+  color: #111;
+}
+
